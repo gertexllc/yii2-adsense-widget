@@ -1,0 +1,30 @@
+{
+  "name": "gertexllc/yii2-adsense-widget",
+  "description": "A Yii2 widget for displaying Google Adsense ads.",
+  "type": "library",
+  "keywords": ["yii2", "widget", "google","adsense"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "gertexllc\\yii2bootstrapdetector\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Andreas Hinderberger",
+      "email": "info@gertex.us"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "^2.0",
+    "ext-json": "*",
+    "yidas/yii2-bower-asset": "2.0.13.1"
+  }
+}
